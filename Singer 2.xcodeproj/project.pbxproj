@@ -13,6 +13,9 @@
 		0913A16226B7F5EB0022AB57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0913A16126B7F5EB0022AB57 /* Preview Assets.xcassets */; };
 		0913A16426B7F5EB0022AB57 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0913A16326B7F5EB0022AB57 /* Persistence.swift */; };
 		0913A16726B7F5EB0022AB57 /* Singer_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0913A16526B7F5EB0022AB57 /* Singer_2.xcdatamodeld */; };
+		0913A17426B7F75B0022AB57 /* Singer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0913A17226B7F75B0022AB57 /* Singer+CoreDataClass.swift */; };
+		0913A17526B7F75B0022AB57 /* Singer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0913A17326B7F75B0022AB57 /* Singer+CoreDataProperties.swift */; };
+		0913A17B26B827E80022AB57 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0913A17A26B827E80022AB57 /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		0913A16326B7F5EB0022AB57 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		0913A16626B7F5EB0022AB57 /* Singer_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Singer_2.xcdatamodel; sourceTree = "<group>"; };
 		0913A16826B7F5EB0022AB57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0913A17226B7F75B0022AB57 /* Singer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		0913A17326B7F75B0022AB57 /* Singer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		0913A17A26B827E80022AB57 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				0913A15A26B7F5E60022AB57 /* Singer_2App.swift */,
-				0913A15C26B7F5E60022AB57 /* ContentView.swift */,
+				0913A16F26B7F66D0022AB57 /* Model */,
+				0913A17726B7F81E0022AB57 /* VIew */,
 				0913A15E26B7F5EB0022AB57 /* Assets.xcassets */,
-				0913A16326B7F5EB0022AB57 /* Persistence.swift */,
 				0913A16826B7F5EB0022AB57 /* Info.plist */,
-				0913A16526B7F5EB0022AB57 /* Singer_2.xcdatamodeld */,
 				0913A16026B7F5EB0022AB57 /* Preview Content */,
 			);
 			path = "Singer 2";
@@ -73,6 +78,26 @@
 				0913A16126B7F5EB0022AB57 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0913A16F26B7F66D0022AB57 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0913A17226B7F75B0022AB57 /* Singer+CoreDataClass.swift */,
+				0913A17326B7F75B0022AB57 /* Singer+CoreDataProperties.swift */,
+				0913A16526B7F5EB0022AB57 /* Singer_2.xcdatamodeld */,
+				0913A16326B7F5EB0022AB57 /* Persistence.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0913A17726B7F81E0022AB57 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				0913A15C26B7F5E60022AB57 /* ContentView.swift */,
+				0913A17A26B827E80022AB57 /* ListView.swift */,
+			);
+			path = VIew;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,7 +170,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0913A16426B7F5EB0022AB57 /* Persistence.swift in Sources */,
+				0913A17526B7F75B0022AB57 /* Singer+CoreDataProperties.swift in Sources */,
 				0913A15D26B7F5E60022AB57 /* ContentView.swift in Sources */,
+				0913A17B26B827E80022AB57 /* ListView.swift in Sources */,
+				0913A17426B7F75B0022AB57 /* Singer+CoreDataClass.swift in Sources */,
 				0913A16726B7F5EB0022AB57 /* Singer_2.xcdatamodeld in Sources */,
 				0913A15B26B7F5E60022AB57 /* Singer_2App.swift in Sources */,
 			);
