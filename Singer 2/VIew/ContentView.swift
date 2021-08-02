@@ -12,9 +12,6 @@ struct ContentView: View {
    // MARK: - PROPERTY WRAPPERS
    
    @Environment(\.managedObjectContext) var moc
-//   @FetchRequest(entity: Singer.entity(),
-//                 sortDescriptors: [],
-//                 predicate: nil) var singers: FetchedResults<Singer>
    @State private var lastNameFilter: String = "A"
    
    
@@ -24,13 +21,9 @@ struct ContentView: View {
    var body: some View {
       
       VStack {
-//         List {
-            // TODO: List of matching singers.
-//            ForEach(singers, id: \.self) { (singer: Singer) in
-//               Text("\(singer.wrappedFirstName) \(singer.wrappedLastName)")
-//            }
-//         }
-         ListView(filter: lastNameFilter)
+         Text("Filtered by \(lastNameFilter)")
+            .fontWeight(.semibold)
+         FilteredList(filter: lastNameFilter)
          Group {
             Button("Create Singers") {
                let taylor: Singer = Singer(context: self.moc)

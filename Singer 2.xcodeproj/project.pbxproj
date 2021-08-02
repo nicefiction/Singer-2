@@ -15,7 +15,7 @@
 		0913A16726B7F5EB0022AB57 /* Singer_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0913A16526B7F5EB0022AB57 /* Singer_2.xcdatamodeld */; };
 		0913A17426B7F75B0022AB57 /* Singer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0913A17226B7F75B0022AB57 /* Singer+CoreDataClass.swift */; };
 		0913A17526B7F75B0022AB57 /* Singer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0913A17326B7F75B0022AB57 /* Singer+CoreDataProperties.swift */; };
-		0913A17B26B827E80022AB57 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0913A17A26B827E80022AB57 /* ListView.swift */; };
+		0913A17B26B827E80022AB57 /* FilteredList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0913A17A26B827E80022AB57 /* FilteredList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 		0913A16826B7F5EB0022AB57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0913A17226B7F75B0022AB57 /* Singer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
 		0913A17326B7F75B0022AB57 /* Singer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
-		0913A17A26B827E80022AB57 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		0913A17A26B827E80022AB57 /* FilteredList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				0913A15C26B7F5E60022AB57 /* ContentView.swift */,
-				0913A17A26B827E80022AB57 /* ListView.swift */,
+				0913A17A26B827E80022AB57 /* FilteredList.swift */,
 			);
 			path = VIew;
 			sourceTree = "<group>";
@@ -172,7 +172,7 @@
 				0913A16426B7F5EB0022AB57 /* Persistence.swift in Sources */,
 				0913A17526B7F75B0022AB57 /* Singer+CoreDataProperties.swift in Sources */,
 				0913A15D26B7F5E60022AB57 /* ContentView.swift in Sources */,
-				0913A17B26B827E80022AB57 /* ListView.swift in Sources */,
+				0913A17B26B827E80022AB57 /* FilteredList.swift in Sources */,
 				0913A17426B7F75B0022AB57 /* Singer+CoreDataClass.swift in Sources */,
 				0913A16726B7F5EB0022AB57 /* Singer_2.xcdatamodeld in Sources */,
 				0913A15B26B7F5E60022AB57 /* Singer_2App.swift in Sources */,

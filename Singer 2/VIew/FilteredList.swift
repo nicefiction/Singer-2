@@ -16,10 +16,16 @@ struct FilteredList: View {
    
    // MARK: - COMPUTED PROPERTIES
    
+   var singers: FetchedResults<Singer> {
+      
+      fetchRequest.wrappedValue
+   }
+   
+   
    var body: some View {
       
       List {
-         ForEach(fetchRequest.wrappedValue,
+         ForEach(singers,
                  id: \.self) { (singer: Singer) in
             Text("\(singer.wrappedLastName) \(singer.wrappedFirstName)")
          }
