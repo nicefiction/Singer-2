@@ -16,6 +16,7 @@
 		0913A17426B7F75B0022AB57 /* Singer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0913A17226B7F75B0022AB57 /* Singer+CoreDataClass.swift */; };
 		0913A17526B7F75B0022AB57 /* Singer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0913A17326B7F75B0022AB57 /* Singer+CoreDataProperties.swift */; };
 		0913A17B26B827E80022AB57 /* FilteredList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0913A17A26B827E80022AB57 /* FilteredList.swift */; };
+		09344B3C26B94777008199F2 /* Predicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09344B3B26B94777008199F2 /* Predicate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		0913A17226B7F75B0022AB57 /* Singer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
 		0913A17326B7F75B0022AB57 /* Singer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		0913A17A26B827E80022AB57 /* FilteredList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredList.swift; sourceTree = "<group>"; };
+		09344B3B26B94777008199F2 /* Predicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predicate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				0913A17326B7F75B0022AB57 /* Singer+CoreDataProperties.swift */,
 				0913A16526B7F5EB0022AB57 /* Singer_2.xcdatamodeld */,
 				0913A16326B7F5EB0022AB57 /* Persistence.swift */,
+				09344B3B26B94777008199F2 /* Predicate.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				0913A16426B7F5EB0022AB57 /* Persistence.swift in Sources */,
 				0913A17526B7F75B0022AB57 /* Singer+CoreDataProperties.swift in Sources */,
 				0913A15D26B7F5E60022AB57 /* ContentView.swift in Sources */,
+				09344B3C26B94777008199F2 /* Predicate.swift in Sources */,
 				0913A17B26B827E80022AB57 /* FilteredList.swift in Sources */,
 				0913A17426B7F75B0022AB57 /* Singer+CoreDataClass.swift in Sources */,
 				0913A16726B7F5EB0022AB57 /* Singer_2.xcdatamodeld in Sources */,

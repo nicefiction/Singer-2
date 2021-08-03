@@ -37,7 +37,7 @@ struct FilteredList: View {
    // MARK: - METHODS
    
    init(filter: String,
-        predicate: String) {
+        predicate: Predicate) {
       
       self.fetchRequest = FetchRequest(entity: Singer.entity(),
                                        sortDescriptors: [NSSortDescriptor(key: "firstName", ascending: false)],
@@ -57,6 +57,6 @@ struct ListView_Previews: PreviewProvider {
    static var previews: some View {
       
       FilteredList(filter: "S",
-                   predicate: "BEGINSWITH")
+                   predicate: Predicate.beginsWith)
    }
 }

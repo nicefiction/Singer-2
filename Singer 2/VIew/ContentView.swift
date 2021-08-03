@@ -23,7 +23,8 @@ struct ContentView: View {
       VStack {
          Text("Filtered by \(lastNameFilter)")
             .fontWeight(.semibold)
-         FilteredList(filter: lastNameFilter)
+         FilteredList(filter: lastNameFilter,
+                      predicate: Predicate.beginsWith)
          Group {
             Button("Create Singers") {
                let taylor: Singer = Singer(context: self.moc)
