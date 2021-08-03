@@ -36,13 +36,13 @@ struct FilteredList: View {
    
    // MARK: - METHODS
    
-   init(filter: String) {
+   init(filter: String,
+        predicate: String) {
       
       self.fetchRequest = FetchRequest(entity: Singer.entity(),
-                                       sortDescriptors: [NSSortDescriptor(key: "firstName",
-                                                                          ascending: false)],
-                                       predicate: NSPredicate(format: "lastName BEGINSWITH %@",
-                                                              filter))
+                                       sortDescriptors: [NSSortDescriptor(key: "firstName", ascending: false)],
+                                       // predicate: NSPredicate(format: "lastName BEGINSWITH %@", filter))
+                                       predicate: NSPredicate(format: "lastName \(predicate) %@", filter))
    }
 }
 
@@ -56,6 +56,7 @@ struct ListView_Previews: PreviewProvider {
    
    static var previews: some View {
       
-      FilteredList(filter: "S")
+      FilteredList(filter: "S",
+                   predicate: "BEGINSWITH")
    }
 }
